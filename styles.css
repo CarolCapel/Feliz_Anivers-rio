@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+    background-color: #AA77FF;
+    font-family: 'Mooli', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    background-color: #62CDFF;
+
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 22px;
+
+}
+
+li {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+a:hover {
+    background-color: #97DEFF;
+}
+
+a:active {
+    background-color: #97DEFF;
+    text-decoration: underline;
+}
+
+.container {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cake {
+    height: 70px;
+    width: 180px;
+    background-color: #694E4E;
+    position: absolute;
+}
+
+.c1 {
+    bottom: 0;
+    left: 60px;
+}
+
+.cream {
+    background-color: #F6C6EA;
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+}
+
+.icing {
+    position: relative;
+}
+
+.icing>div {
+    background-color: #F6C6EA;
+    height: 12.5px;
+    width: 26px;
+    border-radius: 0 0 26px 26px;
+    position: absolute;
+}
+
+.icing>div:nth-child(1) {
+    left: -2px;
+}
+
+.icing>div:nth-child(2) {
+    left: 26px;
+}
+
+.icing>div:nth-child(3) {
+    left: 52px;
+}
+
+.icing>div:nth-child(4) {
+    left: 78px;
+}
+
+.icing>div:nth-child(5) {
+    left: 104px;
+}
+
+.icing>div:nth-child(6) {
+    left: 130px;
+}
+
+.icing>div:nth-child(7) {
+    left: 156px;
+}
+
+.cherry>div {
+    background-color: #C70039;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -18px;
+}
+
+.cherry>div:nth-child(1) {
+    left: 8px;
+}
+
+.cherry>div:nth-child(2) {
+    left: 40px;
+}
+
+.cherry>div:nth-child(3) {
+    left: 70px;
+}
+
+.cherry>div:nth-child(4) {
+    left: 100px;
+}
+
+.cherry>div:nth-child(5) {
+    left: 130px;
+}
+
+.cherry>div:nth-child(6) {
+    left: 156px;
+}
+
+.c2 {
+    transform: scale(0.8);
+    bottom: 62px;
+    left: 60px;
+    z-index: -1;
+}
+
+.c3 {
+    transform: scale(0.6);
+    bottom: 110px;
+    left: 60px;
+    z-index: -2;
+}
+
+.candle {
+    background-color: #AED2FF;
+    height: 80px;
+    width: 20px;
+    position: absolute;
+    z-index: -3;
+    bottom: 60px;
+    left: 80px;
+}
+
+.flame {
+    background-color: #FE6244;
+    height: 22px;
+    width: 22px;
+    border-radius: 0 50% 50% 50%;
+    top: -24px;
+    position: absolute;
+    transform: rotate(45deg);
+    animation: flicker 1s ease-in-out infinite;
+}
+
+@keyframes flicker {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+}
