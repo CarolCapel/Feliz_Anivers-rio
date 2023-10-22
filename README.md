@@ -7,5 +7,7 @@
 ##
 <br>
 
-![20231022_164014](https://github.com/CarolCapel/Feliz_Aniversirio/assets/108011375/b1ee5f8d-8cef-4192-8419-f093d99cd347)
-![20231022_163833](https://github.com/CarolCapel/Feliz_Aniversirio/assets/108011375/f0033954-5507-4338-beda-073333962817)
+
+![20231022_163833](https://github.com/CarolCapel/Feliz_Aniversirio/assets/108011375/fa55f46a-f95a-4016-bc71-95f62f8c80a0)
+
+![20231022_164014](https://github.com/CarolCapel/Feliz_Aniversirio/assets/108011375/741d817a-8307-4669-bafe-9eb145083ac5)
