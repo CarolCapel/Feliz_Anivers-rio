@@ -5,8 +5,6 @@
 💖 O escrito "Feliz Aniversário" é um link que vai direcionar para outra página que tem um texto e um coração com efeito. 
 
 ##
-<br>
-
 
 ![20231022_163833](https://github.com/CarolCapel/Feliz_Aniversirio/assets/108011375/fa55f46a-f95a-4016-bc71-95f62f8c80a0)
 
